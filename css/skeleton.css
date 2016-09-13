@@ -184,20 +184,18 @@ body {
 h1 { font-size: 2.4rem; font-weight:400; line-height: 1.8; margin-top: 0; margin-bottom:0; }
 h2 { font-size: 1.8rem; font-weight:600; line-height: 1.25; }
 h3 { font-size: 2.0rem; font-weight:400; line-height: 1; margin-top: 0; margin-bottom: 0;  }
-h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
-h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
+h4 { font-size: 2.0rem; font-weight:200; font-style:italic; color:#808080; line-height: 1.2; margin-top:0; margin-bottom:1%; }
+h5 { font-size: 1.4rem; font-weight:200; color:#808080; line-height: 1.6; margin-top:0; margin-bottom:0; }
 h6 { font-size: 2.0rem; font-weight:200; font-style:italic; color:#808080; line-height: 1.2; margin-top:0; margin-bottom:1%; }
-h7 { font-size: 1.4rem; font-weight:200; color:#808080; line-height: 1.6; margin-top:0; margin-bottom:0; }
 
 /* Larger than phablet */
 @media (min-width: 550px) {
   h1 { font-size: 2.4rem; }
   h2 { font-size: 1.8rem; }
   h3 { font-size: 2.0rem; }
-  h4 { font-size: 2.4rem; }
-  h5 { font-size: 1.8rem; }
+  h4 { font-size: 2.0rem; }
+  h5 { font-size: 1.4rem; }
   h6 { font-size: 2.0rem; }
-  h7 { font-size: 1.4rem; }
 }
 
 p {
