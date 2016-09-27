@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
   <g fill="none" fill-rule="evenodd">
     <circle cx="400" cy="400" r="400" fill="#000000"/>
-    <g transform="rotate(1 -11282.106 13788.753)">
+    <g transform="translate(236 202)">
       <polygon fill="#DDDDDD" points="42 120 279 120 279 0 0 0"/>
       <polygon fill="#AAAAAA" points="279 0 114.377 120 163.596 120"/>
       <polygon fill="#DDDDDD" points="92 397 329 397 329 277 50 277" transform="rotate(180 189.5 337)"/>
