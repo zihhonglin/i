@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubo - Zih-Hong Lin (Lzh) - Interaction Designer</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/cocoen.min.css">
+    <link rel="stylesheet" href="../css/aos.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap" rel="stylesheet">
+    <script src="../js/easings.min.js"></script>
+    <script src="../js/fullpage.min.js"></script>
+    <script src="../js/scrolloverflow.min.js"></script>
+    <script src="../js/cocoen.min.js"></script>
+    <script src="../js/aos.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="fixed">
+            <div class="rows">
+                <div class="row"><a href="../">Back</a></div>
+                <div class="row">Project 02</div>
+            </div>
+        </div>
+
+        <div class="project-intro">
+            <div class="project-name animated slideInRight fast">Bubo</div>
+            <div class="project-set">
+                <div class="project-hr"></div>
+                <div class="project-num">02</div>
+            </div>
+            <div class="project-res">UI/UX Design<br>
+                Service Design<br>
+                Front-End Development</div>
+            <div class="project-desc">Bubo 是一個設計給企業內部使用的對話式機器人，結合了 Chatbot 及 OCR
+                兩項技術，讓同仁在出差洽案或參與各類活動獲取名片時，可以快速建檔管理並獲取該廠商的重要情報，同時在查找名片時也得以透過組合對話情境的方式進行快速搜尋。</div>
+        </div>
+
+        <div class="gallery" data-aos="fade-up">
+            <img src="./images/04.png" class="artwork" width="100%">
+            <div class="video-row"><video src="./images/01.mp4" class="video" width="33.3%" autoplay loop preload
+                    muted></video><video src="./images/02.mp4" class="video" width="33.3%" autoplay loop preload
+                    muted></video><video src="./images/03.mp4" class="video" width="33.3%" autoplay loop preload
+                    muted></video></div>
+            <img src="./images/01.png" class="artwork" width="100%">
+            <img src="./images/02.png" class="artwork" width="100%">
+            <img src="./images/03.png" class="artwork" width="100%">
+
+        </div>
+
+
+    </div>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            autoScrolling: false,
+        });
+    </script>
+    <script type="text/javascript">
+        new Cocoen(document.querySelector('.cocoen'));
+    </script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
