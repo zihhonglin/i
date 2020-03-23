@@ -209,13 +209,13 @@ a:hover {
 
 .gallery .artwork {
     margin-bottom: 120px;
-    object-fit: cover;
+    object-fit: contain;
     width: 72vw;
 }
 
 .gallery .video {
     margin-bottom: 120px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .gallery-slider {
