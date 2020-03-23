@@ -227,3 +227,64 @@ a:hover {
     display: flex;
     width: 72vw;
 }
+
+@media screen and (max-width:480px) {
+    .mobile-hide {
+        display: none
+    }
+
+    .container {
+        padding: 12px;
+        font-size: 16px;
+        position: relative;
+    }
+
+    .fixed {
+        position: fixed;
+        z-index: 99;
+        width: calc(100vw - 24px);
+        height: calc(100vh - 24px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        pointer-events: none;
+    }
+
+    .desc {
+        color: #9E9E9E;
+        text-align: right;
+    }
+
+    .product-name {
+        font-size: 60px;
+        color: #000000;
+        transition: all 0.3s cubic-bezier(0.25, 1.2, 0.25, 1) 0.1s;
+    }
+
+    .product {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        margin-left: 0px;
+    }
+
+    .project-intro {
+        margin-top: 120px;
+        width: calc(50vw - 12px);
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        float: right;
+    }
+
+    .gallery .artwork {
+        margin-bottom: 60px;
+        object-fit: cover;
+        width: 72vw;
+    }
+
+    .gallery .video {
+        margin-bottom: 60px;
+        object-fit: cover;
+    }
+}
