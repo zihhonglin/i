@@ -1,138 +1,93 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
-
-    <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta charset="utf-8">
-    <title>Zih-Hong Lin (Zach) - UI/UX Designer</title>
-    <meta name="robots" content="index,follow">
-    <meta name="googlebot" content="index,follow">
-    <meta name="description"
-        content="The Portfolio & Resume of Zih-Hong Lin, an UI/UX designer and front-end developer.">
-    <meta name="author" content="Zih-Hong Lin">
-    <meta name="keywords" content="UI, UX, Zih-Hong Lin, Zach Lin, Designer, 林子虹">
-    <meta name="copyright" content="Zih-Hong Lin">
-    <meta property="og:title" content="Zih-Hong Lin (Zach) - UI/UX Designer">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="zihhonglin.com">
-    <meta property="og:image" content="images/head.png">
-    <meta property="og:site_name" content="Zih-Hong Lin (Zach) - UI/UX Designer">
-    <meta property="og:description"
-        content="The Portfolio & Resume of Zih-Hong Lin, an UI/UX designer and front-end developer.">
-
-    <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
-
-    <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
-
-    <!-- Google Analytics
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-84003161-1', 'auto');
-        ga('send', 'pageview');
-    </script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zih-Hong Lin - Designer</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 </head>
 
 <body>
+    <header class="wow fadeInDown">
+        <a href="./" class="logo">Zih-Hong Lin</a>
+        <div class="nav">
+            <a class="active" href="./">Work</a>
+            <a href="./about">About</a>
+        </div>
+    </header>
 
-    <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="intro wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">
+        <h1 class="title">Hello, I'm Zih-Hong 👋🏻</h1>
+        <h2 class="subtitle">A designer focused on designing interactive products with a comprehensive user-centered
+            design process from user research to beautiful pixels.</h2>
+    </div>
     <div class="container">
-        <div class="row">
-            <div class="twelve columns" style="margin-top: 5%" align="center">
-                <a href="index.html"><img class="logo hvr-bob" src="images/logo.svg" alt="logo" width="36"></a>
-                <h1>Zih-Hong Lin (Zach)</h1>
-                <h4>Better design, better experiences.</h4>
-                <h5><i class="material-icons md-18">email</i> pirastr@gmail.com <i class="material-icons md-18">call</i>
-                    +886 939 323 900 <i class="material-icons md-18">location_on</i> Hsinchu, Taiwan</h5>
-
-                <table class="u-full-width">
-                    <tbody>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td style=" text-align: center;"><a class="navlink-active" href="index.html">About</a></td>
-                            <td style=" text-align: center;"><a class="navlink" href="portfolio.html">Portfolio</a></td>
-                            <td style=" text-align: center;"><a class="navlink" href="resume.html">Resume</a></td>
-                        </tr>
-                    </tbody>
-                </table>
+        <div class="row section">
+            <div class="col-sm-6">
+                <div class="artwork wow fadeInUp project-1" onclick="location.href='./i5em';">
+                    <div class="project-info">
+                        <div class="project-title">i5E Marketing</div>
+                        <div class="project-description">
+                            一個提供給企業內部使用的服務，協助推廣及研發人員在執行業務時可以透過系統的協助，減少耗時、重複性高的工作，聚焦在挖掘洞見及關鍵意圖上，並從中展現專業形象，更有效率的完成工作。
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="artwork wow fadeInUp project-2" data-wow-delay="0.1s" onclick="location.href='./bubo';">
+                    <div class="project-info">
+                        <div class="project-title">Bubo</div>
+                        <div class="project-description">
+                            一個設計給企業內部使用的對話式機器人，結合了 Chatbot 及 OCR
+                            兩項技術，讓員工在出差洽案或參與各類活動獲取名片時，可以快速建檔管理並獲取該廠商的重要情報，同時在查找名片時也得以透過組合對話情境的方式進行快速搜尋。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row section">
+            <div class="col-sm-6">
+                <div class="artwork wow fadeInUp project-3" onclick="location.href='./ch';">
+                    <div class="project-info">
+                        <div class="project-title">Contract Helper</div>
+                        <div class="project-description">
+                            一個開發給企業內部的契約管理平台，透過將專業法務人員的範本數位化為線上編輯工具，讓同仁可以藉由簡單的填答完成合約擬定，同時也節省法務審理的時間，加速專案作業時程。
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="artwork wow fadeInUp project-4" data-wow-delay="0.1s" onclick="location.href='./i5eat';">
+                    <div class="project-info">
+                        <div class="project-title">i5E Analysis Tool</div>
+                        <div class="project-description">
+                            一個設計給企業內部使用的服務，使用者可以透過服務批次輸入感興趣的關鍵技術詞，進而探索及觀測該領域的關聯廠商及產業架構，協助推廣及研發人員在推廣及撰寫計畫書更有效率。
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
+    <footer>
+        <span class="copyright">© 2020 Zih-Hong Lin</span>
+        <span class="quote">I am rooted, but I flow.</span>
+    </footer>
 
-    <div class="container">
-        <h2>About Zih-Hong</h2>
-        <br>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns" style="margin-top: 0px;">
-                <p align="center">
-                    <img src="images/head.png" alt="zih-hong lin" width="240vw" style="border-radius: 50%">
-                    <h3>Hello! Good to see you.</h3>
-                    <br> My name is Zih-Hong, I'm now studying Interaction Design at Graduate Institute of Design of
-                    Taiwan-Tech, focusing on the research of HCI field during my study period. Learning how to explore
-                    the needs of users and solving the
-                    pain points through design has always been my main goal. I had submitted 6 pieces of conference
-                    papers related to UX and HCI at present and positively participate in the activities of UX field.
-                    <br><br> As an interaction designer,
-                    I'm good at thinking from the angle of users, planning and drawing up the friendly operating
-                    interface and flow; I also have the development experiences of App & website at the same time. Those
-                    ability above allows me to produce the
-                    prototype rapidly and move on to usability test. In a nutshell, I'm a designer with cross-field
-                    thinking and integrated abilities.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns" style="margin-top: 0%; margin-bottom: 4%; " align="center">
-                <hr>
-                <a class="button" href="portfolio.html">View my portfolio ></a>
-            </div>
-        </div>
-    </div>
-
-
-
-    <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script>
+        wow = new WOW({
+            boxClass: 'wow', // default
+            animateClass: 'animated', // default
+            offset: 0, // default
+            mobile: true, // default
+            live: true // default
+        })
+        wow.init();
+    </script>
 </body>
 
 </html>

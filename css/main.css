@@ -1,0 +1,353 @@
+html,
+body {
+    background: #ffffff;
+    font-family: "Helvetica Neue", "Avenir", Helvetica, 'Noto Sans TC', PingFangTC-Regular, "Microsoft Jhenghei", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #32353a;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+header {
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid #f3f4f5;
+    padding: 0 4vw;
+    color: #222222;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+footer {
+    display: flex;
+    height: 128px;
+    padding: 0 4vw;
+    color: #5f6269;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.08em;
+}
+
+.logo:hover {
+    animation: pulse 1s;
+}
+
+.nav {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.nav a {
+    color: #5f6269;
+    margin: 0 12px;
+}
+
+.nav .active {
+    color: #32353a;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 72vh;
+}
+
+.title {
+    color: #32353a;
+    font-size: 48px;
+    margin: 24px 0;
+}
+
+.subtitle {
+    color: #5f6269;
+    font-size: 24px;
+    margin: 0;
+    width: 64vw;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.artwork {
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #F1F1F2;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+}
+
+.artwork:hover>.project-info {
+    opacity: 1;
+}
+
+.artwork:hover .project-title,
+.artwork:hover .project-description {
+    animation: fadeInUp 1s;
+}
+
+.project-info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s cubic-bezier(0.25, 1.2, 0.25, 1) 0.1s;
+    opacity: 0;
+}
+
+.project-title {
+    color: #32353a;
+    font-size: 24px;
+    margin: 12px 0;
+    font-weight: 600;
+}
+
+.project-description {
+    color: #5f6269;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 12%;
+    text-align: left;
+}
+
+.project-1 {
+    background: url('../images/cover-01.png') no-repeat center / 100% 100%;
+}
+
+.project-2 {
+    background: url('../images/cover-02.png') no-repeat center / 100% 100%;
+}
+
+.project-3 {
+    background: url('../images/cover-03.png') no-repeat center / 100% 100%;
+}
+
+.project-4 {
+    background: url('../images/cover-04.png') no-repeat center / 100% 100%;
+}
+
+.product-container {
+    background-color: #FFFFFF;
+    padding: 8vw 12vw;
+}
+
+.product-info {
+    width: 40vw;
+}
+
+.product-title {
+    color: #32353a;
+    font-size: 40px;
+    margin-bottom: 48px;
+    font-weight: 600;
+
+}
+
+.product-description {
+    color: #5f6269;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+.product-role {
+    color: #5f6269;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    font-weight: 300;
+    margin-bottom: 48px;
+}
+
+.work {
+    background-color: #F1F1F2;
+}
+
+.gallery {
+    margin: 24px;
+}
+
+.gallery img,
+.gallery video {
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.video-row {
+    display: flex;
+}
+
+.video-row video {
+    width: 33.33%;
+}
+
+.gallery-container {
+    padding: 48px 0;
+}
+
+.next {
+    padding: 0 4vw;
+    color: #32353a;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: right;
+    font-weight: 600;
+}
+
+.next span {
+    color: #5f6269;
+    font-size: 18px;
+    line-height: 40px;
+    margin-right: 24px;
+    vertical-align: middle;
+    font-weight: 300;
+}
+
+.next:hover {
+    animation: pulse 1s;
+}
+
+.quote {
+    display: none;
+}
+
+footer:hover>.quote {
+    display: block;
+}
+
+footer:hover>.copyright {
+    display: none;
+}
+
+.about-title {
+    color: #32353a;
+    font-size: 48px;
+    margin: 48px 0 60px 0;
+    width: 50%;
+}
+
+.about-subtitle {
+    color: #32353a;
+    font-size: 24px;
+    margin: 0;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.about-description {
+    margin: 24px 0;
+    color: #5f6269;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.download-icon {
+    width: 18px;
+    height: 24px;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='18px' height='24px' viewBox='0 0 18 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 64 (93537) - https://sketch.com --%3E%3Ctitle%3Efile-pdf-solid%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='file-pdf-solid' fill='%235F6269' fill-rule='nonzero'%3E%3Cpath d='M8.5265625,12.0046875 C8.2921875,11.2546875 8.296875,9.80625 8.4328125,9.80625 C8.8265625,9.80625 8.7890625,11.5359375 8.5265625,12.0046875 Z M8.446875,14.2171875 C8.0859375,15.1640625 7.6359375,16.246875 7.115625,17.15625 C7.9734375,16.828125 8.94375,16.35 10.0640625,16.1296875 C9.46875,15.6796875 8.896875,15.0328125 8.446875,14.2171875 Z M4.0359375,20.0671875 C4.0359375,20.1046875 4.6546875,19.8140625 5.671875,18.1828125 C5.3578125,18.478125 4.3078125,19.33125 4.0359375,20.0671875 Z M11.625,7.5 L18,7.5 L18,22.875 C18,23.4984375 17.4984375,24 16.875,24 L1.125,24 C0.5015625,24 0,23.4984375 0,22.875 L0,1.125 C0,0.5015625 0.5015625,0 1.125,0 L10.5,0 L10.5,6.375 C10.5,6.99375 11.00625,7.5 11.625,7.5 Z M11.25,15.553125 C10.3125,14.98125 9.6890625,14.19375 9.2484375,13.03125 C9.459375,12.1640625 9.7921875,10.846875 9.5390625,10.021875 C9.31875,8.64375 7.5515625,8.7796875 7.2984375,9.703125 C7.0640625,10.5609375 7.2796875,11.7703125 7.678125,13.3125 C7.134375,14.60625 6.3328125,16.340625 5.765625,17.334375 C5.7609375,17.334375 5.7609375,17.3390625 5.75625,17.3390625 C4.4859375,17.990625 2.30625,19.425 3.2015625,20.5265625 C3.4640625,20.85 3.9515625,20.9953125 4.209375,20.9953125 C5.0484375,20.9953125 5.8828125,20.1515625 7.0734375,18.0984375 C8.2828125,17.7 9.609375,17.203125 10.7765625,17.0109375 C11.79375,17.5640625 12.984375,17.925 13.7765625,17.925 C15.1453125,17.925 15.2390625,16.425 14.7,15.890625 C14.0484375,15.253125 12.1546875,15.4359375 11.25,15.553125 L11.25,15.553125 Z M17.671875,4.921875 L13.078125,0.328125 C12.8671875,0.1171875 12.58125,0 12.28125,0 L12,0 L12,6 L18,6 L18,5.7140625 C18,5.41875 17.8828125,5.1328125 17.671875,4.921875 Z M14.1984375,16.8890625 C14.390625,16.7625 14.08125,16.33125 12.1921875,16.4671875 C13.93125,17.2078125 14.1984375,16.8890625 14.1984375,16.8890625 Z' id='Shape'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.download {
+    color: #5f6269;
+    font-size: 16px;
+    font-weight: normal;
+    display: inline-block;
+    line-height: 24px;
+}
+
+.pic {
+    width: 100%;
+    filter: grayscale(0);
+}
+
+.resume-title {
+    font-size: 24px;
+    color: #32353a;
+    font-weight: 600;
+    margin: 24px 0;
+}
+
+.resume-description {
+    font-size: 16px;
+    color: #5f6269;
+    line-height: 24px;
+    margin-bottom: 36px;
+}
+
+.hl {
+    color: #32353a;
+    font-weight: 600;
+}
+
+@media (max-width: 576px) {
+    .intro {
+        height: 60vh;
+    }
+
+    .artwork {
+        margin-bottom: 24px;
+    }
+
+    .section {
+        margin: 0;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .subtitle {
+        width: 90vw;
+    }
+
+    .about-title {
+        width: 80%;
+    }
+
+    .reorder {
+        order: -1;
+        margin-bottom: 24px;
+    }
+
+    .product-info {
+        width: 100%;
+    }
+
+    .next span {
+        margin-right: 12px;
+    }
+}
