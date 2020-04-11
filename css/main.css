@@ -291,7 +291,11 @@ footer:hover>.copyright {
 
 .pic {
     width: 100%;
-    filter: grayscale(0);
+    transition: all 1s cubic-bezier(0.25, 1.2, 0.25, 1) 0.1s;
+}
+
+.pic:hover {
+    filter: grayscale(1);
 }
 
 .resume-title {
