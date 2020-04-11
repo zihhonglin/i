@@ -369,6 +369,7 @@ footer:hover>.copyright {
 
     .animation-containr {
         margin-bottom: 24px;
+        padding: 48px 0;
     }
 
     .section {
@@ -404,5 +405,11 @@ footer:hover>.copyright {
     .download-btn {
         margin: 36px 0;
     }
+
+    .svg-ani-1,
+    .svg-ani-2 {
+        width: 28vw;
+    }
+
 
 }
