@@ -350,4 +350,8 @@ footer:hover>.copyright {
     .next span {
         margin-right: 12px;
     }
+
+    .download-btn {
+        margin: 36px 0;
+    }
 }
