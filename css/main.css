@@ -298,6 +298,10 @@ footer:hover>.copyright {
     filter: grayscale(1);
 }
 
+.reorder {
+    margin-top: 54px;
+}
+
 .resume-title {
     font-size: 24px;
     color: #32353a;
@@ -345,6 +349,7 @@ footer:hover>.copyright {
     .reorder {
         order: -1;
         margin-bottom: 24px;
+        margin-top: 0;
     }
 
     .product-info {
