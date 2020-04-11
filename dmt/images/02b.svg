@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="211" height="151" viewBox="0 0 211 151">
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <path stroke="#CADEF7" stroke-dasharray="8" d="M54.5,91 C79.6289561,91 100,70.6289561 100,45.5 C100,20.3710439 79.6289561,0 54.5,0 C29.3710439,0 9,20.3710439 9,45.5 C9,70.6289561 29.3710439,91 54.5,91 Z"/>
+    <path stroke="#CADEF7" stroke-dasharray="8" d="M54.5,81 C74.1061086,81 90,65.1061086 90,45.5 C90,25.8938914 74.1061086,10 54.5,10 C34.8938914,10 19,25.8938914 19,45.5 C19,65.1061086 34.8938914,81 54.5,81 Z"/>
+    <path fill="#FDFDFF" stroke="#0F7DE3" stroke-width="3" d="M40.869107,117.5 L27.2944901,141.805793 C26.9199308,142.476454 26.7232885,143.231833 26.7232885,144 C26.7232885,146.485281 28.7380072,148.5 31.2232885,148.5 L179.776711,148.5 C180.544878,148.5 181.300258,148.303358 181.970918,147.928798 C184.140734,146.716972 184.917337,143.975609 183.70551,141.805793 L170.130893,117.5 L40.869107,117.5 Z"/>
+    <path stroke="#0F7DE3" stroke-width="3" d="M28,142 L183,142"/>
+    <path fill="#7BB8EF" stroke="#0F7DE3" stroke-width="4" d="M42,117 L170,117 L170,49 C170,45.6862915 167.313708,43 164,43 L48,43 C44.6862915,43 42,45.6862915 42,49 L42,117 Z"/>
+    <path fill="#5CA8F1" stroke="#0F7DE3" stroke-width="3" d="M45.7678322,125.5 L42.2066811,134.5 L169.793319,134.5 L166.232168,125.5 L45.7678322,125.5 Z"/>
+    <path stroke="#0F7DE3" stroke-width="2" d="M45,130 L167,130"/>
+    <rect width="111" height="61" x="50" y="50" fill="#FFFFFD" stroke="#0F7DE3" stroke-width="2" rx="2"/>
+    <path fill="#C4DDF9" stroke="#0F7DE3" stroke-width="3" d="M71.5,110.5 L139.5,110.5 L139.5,25 C139.5,23.6192881 138.380712,22.5 137,22.5 L74,22.5 C72.6192881,22.5 71.5,23.6192881 71.5,25 L71.5,110.5 Z"/>
+    <rect width="23" height="12" x="159.5" y="14.5" fill="#FDFDFF" stroke="#CADEF7"/>
+    <path stroke="#CADEF7" d="M163 17.5L175.58526 17.5M163 20.5L178.58526 20.5M163 23.5L171.58526 23.5"/>
+    <rect width="56" height="81" x="78" y="28" fill="#FFFFFD" rx="2"/>
+    <rect width="29" height="3" x="83" y="38" fill="#CADEF7" rx="1.5"/>
+    <rect width="38" height="3" x="83" y="45" fill="#CADEF7" rx="1.5"/>
+    <rect width="29" height="3" x="83" y="52" fill="#CADEF7" rx="1.5"/>
+    <rect width="29" height="3" x="83" y="59" fill="#CADEF7" rx="1.5"/>
+    <rect width="43" height="3" x="83" y="66" fill="#CADEF7" rx="1.5"/>
+    <rect width="37" height="3" x="83" y="73" fill="#CADEF7" rx="1.5"/>
+    <rect width="29" height="3" x="83" y="80" fill="#CADEF7" rx="1.5"/>
+    <rect width="22" height="3" x="83" y="87" fill="#CADEF7" rx="1.5"/>
+    <g transform="translate(83 48)">
+      <circle cx="24" cy="24" r="22.5" fill="#C4E0F6" stroke="#187FE5" stroke-width="3"/>
+      <circle cx="24" cy="24" r="18" fill="#FFFFFD" stroke="#187FE5"/>
+      <path fill="#187FE5" fill-rule="nonzero" d="M26.1760816,28.0321824 C26.1595481,26.611465 26.1760816,25.2386859 26.1512813,23.9182032 L25.845412,18 L23.3653899,18 L21.1168366,23.9182032 C20.6456324,25.260476 20.1620281,26.6506872 19.703224,28.0321824 L19.6329567,28.0321824 L19.8230918,23.9182032 L20.0297603,18 L17,18 L17.0868008,31 L20.7406999,31 L22.7619179,25.3302045 C23.109121,24.3365739 23.4315238,23.2775729 23.74566,22.3013745 L23.8283274,22.3013745 C23.7787269,23.2775729 23.7704602,24.3322159 23.8035271,25.3302045 L23.9688619,31 L27.6930284,31 L32,18 L29.185175,18 L27.4036925,23.9182032 C27.0316892,25.260476 26.6348856,26.611465 26.2504822,28.0321824 L26.1760816,28.0321824 Z"/>
+      <rect width="8" height="14" x="20" y="48" fill="#C8DEF6" stroke="#187FE5" stroke-width="2"/>
+      <animateTransform attributeName="transform" attributeType="XML" dur="4s" keyTimes="0;0.2;0.4;0.5;0.65;1" repeatCount="indefinite" type="translate" values="83 48;63 38;103 8;108 24;83 48;83 48;" calcMode="linear"></animateTransform>
+
+    </g>
+    <path stroke="#CADEF7" stroke-dasharray="4" d="M187.895248,116 L180,116 L180,21 L187.895248,21" transform="matrix(-1 0 0 1 367.895 0)"/>
+    <text fill="#CADEF7" font-family="PingFangTC-Regular, PingFang TC" font-size="14">
+      <tspan x="193.488" y="72">Aa</tspan>
+    </text>
+    <path stroke="#CADEF7" d="M20 89L22.5115083 89C25.2729321 89 27.5115083 91.2385763 27.5115083 94L27.5115083 100C27.5115083 102.761424 25.2729321 105 22.5115083 105L20 105M27.5115083 97L90.6785866 97"/>
+    <g fill="#CADEF8" stroke="#CADEF7" transform="matrix(1 0 0 -1 0 106)">
+      <rect width="3" height="23" x="6"/>
+      <rect width="3" height="15" x="12"/>
+      <rect width="3" height="19"/>
+    </g>
+  </g>
+</svg>

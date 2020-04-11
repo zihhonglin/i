@@ -155,6 +155,14 @@ footer {
     background: url('../images/cover-04.png') no-repeat center / 100% 100%;
 }
 
+.project-5 {
+    background: url('../images/cover-05.png') no-repeat center / 100% 100%;
+}
+
+.project-6 {
+    background: url('../images/cover-06.png') no-repeat center / 100% 100%;
+}
+
 .product-container {
     background-color: #FFFFFF;
     padding: 8vw 12vw;
@@ -321,12 +329,45 @@ footer:hover>.copyright {
     font-weight: 600;
 }
 
+.open-in-new {
+    background-repeat: no-repeat;
+    padding-left: 24px;
+    vertical-align: middle;
+    line-height: 18px;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='18px' height='18px' viewBox='0 0 18 18' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 64 (93537) - https://sketch.com --%3E%3Ctitle%3Eopen_in_new-24px%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='open_in_new-24px' transform='translate(-3.000000, -3.000000)'%3E%3Cpolygon id='Path' points='0 0 24 0 24 24 0 24'%3E%3C/polygon%3E%3Cpath d='M19,19 L5,19 L5,5 L12,5 L12,3 L5,3 C3.89,3 3,3.9 3,5 L3,19 C3,20.1 3.89,21 5,21 L19,21 C20.1,21 21,20.1 21,19 L21,12 L19,12 L19,19 Z M14,3 L14,5 L17.59,5 L7.76,14.83 L9.17,16.24 L19,6.41 L19,10 L21,10 L21,3 L14,3 Z' id='Shape' fill='%235F6269' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.animation-containr {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F7F9FF;
+    padding: 96px 0;
+    margin-bottom: 48px;
+}
+
+.svg-ani-1 {
+    background: url('../dmt/images/02a.svg') no-repeat center / 100% 100%;
+    width: 169px;
+    height: 154px;
+}
+
+.svg-ani-2 {
+    background: url('../dmt/images/02b.svg') no-repeat center / 100% 100%;
+    width: 212px;
+    height: 149px;
+}
+
 @media (max-width: 576px) {
     .intro {
         height: 60vh;
     }
 
     .artwork {
+        margin-bottom: 24px;
+    }
+
+    .animation-containr {
         margin-bottom: 24px;
     }
 
