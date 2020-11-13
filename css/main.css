@@ -324,6 +324,10 @@ footer:hover>.copyright {
     margin-bottom: 36px;
 }
 
+.resume-description a {
+    color: #5f6269;
+}
+
 .hl {
     color: #32353a;
     font-weight: 600;
