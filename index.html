@@ -59,6 +59,17 @@
             text-decoration: none;
         }
 
+        span {
+            visibility: hidden;
+            opacity: 0;
+            transition: all 0.5s cubic-bezier(0.25, 1.2, 0.25, 1) 0.1s;
+        }
+
+        b:hover~span {
+            visibility: visible;
+            opacity: 1;
+        }
+
         @media (max-width: 576px) {
             p {
                 width: 90%;
@@ -68,7 +79,10 @@
                 justify-content: center;
             }
 
-
+            span {
+                visibility: visible;
+                opacity: 1;
+            }
         }
     </style>
 </head>
@@ -76,7 +90,9 @@
 <body>
 
     <div class="container">
-        <p>Zih-Hong Lin<br><br>A designer focused on designing interactive products with a comprehensive
+        <p><b>Z</b><span>ih-Hong Lin</span>
+
+            <br><br>A designer focused on designing interactive products with a comprehensive
             user-centered
             design
             process from user research to beautiful pixels.
