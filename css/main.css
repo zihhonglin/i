@@ -300,10 +300,11 @@ footer:hover>.copyright {
 .pic {
     width: 100%;
     transition: all 1s cubic-bezier(0.25, 1.2, 0.25, 1) 0.1s;
+    filter: grayscale(1);
 }
 
 .pic:hover {
-    filter: grayscale(1);
+    filter: grayscale(0);
 }
 
 .reorder {
