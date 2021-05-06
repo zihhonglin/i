@@ -19,94 +19,114 @@
     <meta property="og:description" content="Zih-Hong Lin - A designer focused on designing interactive products with a comprehensive user-centered
         design process from user research to beautiful pixels.">
     <title>Zih-Hong Lin - Designer</title>
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
     <link rel="icon" type="image/png" href="./images/favicon.png">
-    <style>
-        html,
-        body {
-            background: #000000;
-            color: #FFFFFF;
-            font-family: -apple-system, "Helvetica Neue", Helvetica, 'Noto Sans TC', "Microsoft Jhenghei", Arial,
-                sans-serif;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            scroll-behavior: smooth;
-
-        }
-
-        .container {
-            padding: 48px;
-            width: 100vw;
-            height: 100vh;
-            display: flex;
-            box-sizing: border-box;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: flex-start;
-        }
-
-        p {
-            font-size: 18px;
-            line-height: 1.6rem;
-            letter-spacing: 0rem;
-            font-weight: 400;
-            width: 540px;
-        }
-
-        a {
-            color: #FFFFFF;
-            opacity: 0.6;
-            text-decoration: none;
-        }
-
-        span {
-            visibility: hidden;
-            opacity: 0;
-            transition: all 0.5s cubic-bezier(0.25, 1.2, 0.25, 1) 0.1s;
-        }
-
-        b:hover~span {
-            visibility: visible;
-            opacity: 1;
-        }
-
-        @media (max-width: 576px) {
-            p {
-                width: 90%;
-            }
-
-            .container {
-                justify-content: center;
-            }
-
-            span {
-                visibility: visible;
-                opacity: 1;
-            }
-        }
-    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 </head>
 
 <body>
+    <header class="wow fadeInDown">
+        <a href="./" class="logo">Zih-Hong Lin</a>
+        <div class="nav">
+            <a class="active" href="./">Work</a>
+            <a href="./about">About</a>
+        </div>
+    </header>
 
+    <div class="intro wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">
+        <h1 class="title">Hello, I'm Zih-Hong 👋🏻</h1>
+        <h2 class="subtitle">A designer focused on designing interactive products with a comprehensive user-centered
+            design process from user research to beautiful pixels.</h2>
+    </div>
     <div class="container">
-        <p><b>Z</b><span>ih-Hong Lin</span>
-
-            <br><br>A designer focused on designing interactive products with a comprehensive
-            user-centered
-            design
-            process from user research to beautiful pixels.
-            <br><br>
-            Previously at <a href="https://www.itri.org.tw/">ITRI</a>, <a
-                href="https://www.nvidia.com/zh-tw/">NVIDIA</a>,
-            <a href="https://www.trendmicro.com/zh_tw/business.html">Trend Micro</a>; currently at
-            <a href="http://tronfuture.com/">Tron Future</a>.</p>
-        <p>
-            <a href="mailto:pirastr@gmail.com">Email</a>
-            <a href="https://www.linkedin.com/in/zihhonglin/">LinkedIn</a>
-        </p>
+        <div class="row section">
+            <div class="col-sm-6">
+                <div class="artwork wow fadeInUp project-1" onclick="location.href='./i5em';">
+                    <div class="project-info">
+                        <div class="project-title">i5E Marketing</div>
+                        <div class="project-description">
+                            一個提供給企業內部使用的服務，協助推廣及研發人員在執行業務時可以透過系統的協助，減少耗時、重複性高的工作，聚焦在挖掘洞見及關鍵意圖上，並從中展現專業形象，更有效率的完成工作。
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="artwork wow fadeInUp project-2" data-wow-delay="0.1s" onclick="location.href='./bubo';">
+                    <div class="project-info">
+                        <div class="project-title">Bubo</div>
+                        <div class="project-description">
+                            一個設計給企業內部使用的對話式機器人，結合了 Chatbot 及 OCR
+                            兩項技術，讓員工在出差洽案或參與各類活動獲取名片時，可以快速建檔管理並獲取該廠商的重要情報，同時在查找名片時也得以透過組合對話情境的方式進行快速搜尋。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row section">
+            <div class="col-sm-6">
+                <div class="artwork wow fadeInUp project-3" onclick="location.href='./ch';">
+                    <div class="project-info">
+                        <div class="project-title">Contract Helper</div>
+                        <div class="project-description">
+                            一個開發給企業內部的契約管理平台，透過將專業法務人員的範本數位化為線上編輯工具，讓同仁可以藉由簡單的填答完成合約擬定，同時也節省法務審理的時間，加速專案作業時程。
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="artwork wow fadeInUp project-4" data-wow-delay="0.1s" onclick="location.href='./i5eat';">
+                    <div class="project-info">
+                        <div class="project-title">i5E Analysis Tool</div>
+                        <div class="project-description">
+                            一個設計給企業內部使用的服務，使用者可以透過服務批次輸入感興趣的關鍵技術詞，進而探索及觀測該領域的關聯廠商及產業架構，協助推廣及研發人員在推廣及撰寫計畫書更有效率。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row section">
+            <div class="col-sm-6">
+                <div class="artwork wow fadeInUp project-5" onclick="location.href='./dmt';">
+                    <div class="project-info">
+                        <div class="project-title">Document Merge Tool</div>
+                        <div class="project-description">
+                            一個開發給企業內部的計畫書彙編工具，幫助員工在彙編多個不同來源的計畫書時，可以透過系統快速的合併，並同時檢查文件中的書寫錯誤，提供書寫建議。
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="artwork wow fadeInUp project-6" data-wow-delay="0.1s"
+                    onclick="window.open('https://issuu.com/82216/docs/zih_hong_lin_portfolio_2016','_blank')">
+                    <div class="project-info">
+                        <div class="project-title">2015 - 2016 Portfolio</div>
+                        <div class="project-description">
+                            <div class="open-in-new">Open in new tab</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
+    <footer>
+        <span class="copyright">© 2020 Zih-Hong Lin</span>
+        <span class="quote">I am rooted, but I flow.</span>
+    </footer>
+
+    <script>
+        wow = new WOW({
+            boxClass: 'wow', // default
+            animateClass: 'animated', // default
+            offset: 0, // default
+            mobile: true, // default
+            live: true // default
+        })
+        wow.init();
+    </script>
 </body>
 
 </html>
